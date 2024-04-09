@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --neutral-25: #fff;
+    --neutral-50: #fbfcfe;
+    --neutral-500: #6c8294;
+    --neutral-700: #36536b;
+    --neutral-900: #1b262f;
+
+    --primary-700: #ba4270;
+    --primary-300: #da6d97;
+
+    --serif: "DM Serif Display", serif;
+    --sans: "Noto Sans", sans-serif;
+  }
+}
