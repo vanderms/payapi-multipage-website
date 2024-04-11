@@ -17,3 +17,59 @@
     --sans: "Noto Sans", sans-serif;
   }
 }
+
+@layer components {
+  .heading-page-sm {
+    @apply font-serif;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.25px;
+  }
+
+  .heading-section-sm {
+    @apply font-serif;
+    font-size: 2.25rem;
+    line-height: 1;
+    letter-spacing: -0.28px;
+  }
+
+  .heading-card-sm {
+    @apply font-sans;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    letter-spacing: -0.14px;
+    font-weight: 700;
+  }
+
+  .heading-page-md {
+    @apply font-serif;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.37px;
+  }
+
+  .heading-page-lg {
+    @apply font-serif;
+    font-size: 4.5rem;
+    line-height: 1;
+    letter-spacing: -0.55px;
+  }
+
+  .heading-page {
+    @apply heading-page-sm md:heading-page-md lg:heading-page-lg;
+  }
+
+  .heading-section {
+    @apply heading-section-sm md:heading-page-md;
+  }
+
+  .heading-card {
+    @apply heading-card-sm;
+  }
+
+  .body {
+    @apply font-sans;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+  }
+}
